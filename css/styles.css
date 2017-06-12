@@ -1,0 +1,115 @@
+.pip {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 5px;
+}
+.first-face {
+  background-color: white;
+  border: 2px solid black;
+  height: 85px;
+  width: 85px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-face  {
+  background-color: white;
+  border: 2px solid black;
+  height: 85px;
+  width: 85px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-face .pip:nth-child(2) {
+  align-self: flex-end;
+}
+
+.third-face  {
+  background-color: white;
+  border: 2px solid black;
+  height: 85px;
+  width: 85px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.third-face .pip:first-child  {
+  align-self: flex-start;
+}
+
+.third-face .pip:nth-child(2) {
+
+}
+
+.third-face .pip:nth-child(3)   {
+  align-self: flex-end;
+}
+
+.fourth-face  {
+  background-color: white;
+  border: 2px solid black;
+  height: 85px;
+  width: 85px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifth-face   {
+  background-color: white;
+  border: 2px solid black;
+  height: 85px;
+  width: 85px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.fifth-face .column:first-child   {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifth-face .column:nth-child(2)   {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fifth-face .column:nth-child(3)   {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sixth-face   {
+  background-color: white;
+  border: 2px solid black;
+  height: 85px;
+  width: 85px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+}
+
+.sixth-face .column {
+  /*justify-content: space-between;*/
+}
